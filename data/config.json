@@ -26,10 +26,46 @@
       }
     }
   },
-  "decision": {"energy_classes": ["A", "B", "C", "D"], "d_review_min_score": 85.0},
-  "transit": {"radius_m": 1200, "bonus_max": 2.5},
-  "search": {"min_price_eur": 100000, "max_price_eur": 1100000, "min_surface_m2": 100, "min_bedrooms": 3},
-  "risk": {"high_risk_monthly_buffer_eur": 200.0},
-  "move_in_estimates_eur": {"ready": 10000.0, "light_refresh": 25000.0, "kitchen": 40000.0, "kitchen_and_furnishing": 65000.0, "significant_refresh": 90000.0},
-  "scoring": {"weights": {"value": 40, "size": 15, "energy": 10, "outdoor": 10, "parking": 8, "building": 7, "features": 5}, "commute_bonus_max": 5, "transit_bonus_max": 2.5}
+  "decision": {
+    "energy_classes": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "d_review_min_score": 85.0
+  },
+  "transit": {
+    "radius_m": 1200,
+    "bonus_max": 2.5
+  },
+  "search": {
+    "min_price_eur": 100000,
+    "max_price_eur": 1100000,
+    "min_surface_m2": 100,
+    "min_bedrooms": 3
+  },
+  "risk": {
+    "high_risk_monthly_buffer_eur": 200.0
+  },
+  "move_in_estimates_eur": {
+    "ready": 10000.0,
+    "light_refresh": 25000.0,
+    "kitchen": 40000.0,
+    "kitchen_and_furnishing": 65000.0,
+    "significant_refresh": 90000.0
+  },
+  "scoring": {
+    "weights": {
+      "value": 40,
+      "size": 15,
+      "energy": 10,
+      "outdoor": 10,
+      "parking": 8,
+      "building": 7,
+      "features": 5
+    },
+    "commute_bonus_max": 5,
+    "transit_bonus_max": 2.5
+  }
 }
