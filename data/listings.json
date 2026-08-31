@@ -33,7 +33,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:41.526585+00:00",
+    "scraped_at": "2026-08-31T20:01:18.572367+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 944055,
@@ -103,7 +103,11 @@
       "project_name": "Lot B-1.1 – résidence Othello CREAHAUS vous présente ce bel appartement neuf et traversant d’une surface de +/-136m2 hab"
     },
     "development_name": "Lot B-1.1 – résidence Othello CREAHAUS vous présente ce bel appartement neuf et traversant d’une surface de +/-136m2 hab",
-    "development_key": "lot b 1 1 résidence othello creahaus vous présente ce bel appartement neuf et traversant d une surface de 136m2 hab"
+    "development_key": "lot b 1 1 résidence othello creahaus vous présente ce bel appartement neuf et traversant d une surface de 136m2 hab",
+    "project_key": "oetrange|residence|othello",
+    "duplicate_of": null,
+    "project_representative": true,
+    "project_unit_count": 6
   },
   {
     "url": "https://www.athome.lu/vente/appartement/livange/id-9227702.html",
@@ -139,7 +143,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:55.831540+00:00",
+    "scraped_at": "2026-08-31T20:01:31.563672+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 990000,
@@ -208,7 +212,9 @@
       "project_name": "multifamiliale a été construite en 2025 et n’a pas encore été habitée ni louée, bénéficiant des garanties habituelles et"
     },
     "development_name": "multifamiliale a été construite en 2025 et n’a pas encore été habitée ni louée, bénéficiant des garanties habituelles et",
-    "development_key": "multifamiliale a été construite en 2025 et n a pas encore été habitée ni louée bénéficiant des garanties habituelles et"
+    "development_key": "multifamiliale a été construite en 2025 et n a pas encore été habitée ni louée bénéficiant des garanties habituelles et",
+    "project_key": "livange|development|multifamiliale a t construite en 2025 et n a pas encore t habit e ni lou e b n ficiant des garanties",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/oetrange/id-9013630.html",
@@ -244,7 +250,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:42.851932+00:00",
+    "scraped_at": "2026-08-31T20:01:20.324956+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1024086,
@@ -303,9 +309,11 @@
     },
     "all_in_cost_per_m2_estimate_eur": 7270.47,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": true,
-    "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_eligible": false,
+    "decision_reasons": [
+      "duplicate_of_project_representative"
+    ],
+    "decision_status": "DUPLICATE",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -314,7 +322,12 @@
       "project_name": "Lot B-2.1 – résidence Othello CREAHAUS vous présente ce bel appartement neuf d’une surface de +/-144m2 habitables, situé"
     },
     "development_name": "Lot B-2.1 – résidence Othello CREAHAUS vous présente ce bel appartement neuf d’une surface de +/-144m2 habitables, situé",
-    "development_key": "lot b 2 1 résidence othello creahaus vous présente ce bel appartement neuf d une surface de 144m2 habitables situé"
+    "development_key": "lot b 2 1 résidence othello creahaus vous présente ce bel appartement neuf d une surface de 144m2 habitables situé",
+    "project_key": "oetrange|residence|othello",
+    "duplicate_of": "9013629",
+    "project_representative": false,
+    "project_unit_count": 6,
+    "original_decision_status": "ELIGIBLE"
   },
   {
     "url": "https://www.athome.lu/vente/appartement/oetrange/id-9013633.html",
@@ -350,7 +363,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:45.006965+00:00",
+    "scraped_at": "2026-08-31T20:01:22.041318+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 949712,
@@ -409,9 +422,11 @@
     },
     "all_in_cost_per_m2_estimate_eur": 7429.48,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": true,
-    "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_eligible": false,
+    "decision_reasons": [
+      "duplicate_of_project_representative"
+    ],
+    "decision_status": "DUPLICATE",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -420,7 +435,12 @@
       "project_name": "Lot C-2.1 – résidence Othello CREAHAUS vous présente ce bel appartement neuf d’une surface de +/-130m2 habitables, situé"
     },
     "development_name": "Lot C-2.1 – résidence Othello CREAHAUS vous présente ce bel appartement neuf d’une surface de +/-130m2 habitables, situé",
-    "development_key": "lot c 2 1 résidence othello creahaus vous présente ce bel appartement neuf d une surface de 130m2 habitables situé"
+    "development_key": "lot c 2 1 résidence othello creahaus vous présente ce bel appartement neuf d une surface de 130m2 habitables situé",
+    "project_key": "oetrange|residence|othello",
+    "duplicate_of": "9013629",
+    "project_representative": false,
+    "project_unit_count": 6,
+    "original_decision_status": "ELIGIBLE"
   },
   {
     "url": "https://www.athome.lu/vente/appartement/crauthem/id-9099137.html",
@@ -456,7 +476,7 @@
     "garage": "2",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:32.530621+00:00",
+    "scraped_at": "2026-08-31T20:01:10.820999+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 799000,
@@ -528,7 +548,9 @@
       "project_name": "bien entretenue construite en 2010 par le promoteur renommé Groupe Corcelli. À noter : le bien est officiellement listé"
     },
     "development_name": "bien entretenue construite en 2010 par le promoteur renommé Groupe Corcelli. À noter : le bien est officiellement listé",
-    "development_key": "bien entretenue construite en 2010 par le promoteur renommé groupe corcelli à noter le bien est officiellement listé"
+    "development_key": "bien entretenue construite en 2010 par le promoteur renommé groupe corcelli à noter le bien est officiellement listé",
+    "project_key": "crauthem|development|bien entretenue construite en 2010 par le promoteur renomm groupe corcelli noter le bien est officie",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/oetrange/id-9297254.html",
@@ -564,7 +586,7 @@
     "garage": "2",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T20:00:04.357715+00:00",
+    "scraped_at": "2026-08-31T20:01:41.729722+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 944054,
@@ -623,9 +645,11 @@
     },
     "all_in_cost_per_m2_estimate_eur": 6760.74,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": true,
-    "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_eligible": false,
+    "decision_reasons": [
+      "duplicate_of_project_representative"
+    ],
+    "decision_status": "DUPLICATE",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -634,7 +658,12 @@
       "project_name": "B.1.1 - Bloc B - 1er étage Espace immo vous présente cet appartement 3 chambres, dans la résidence Othello à Oetrange, D"
     },
     "development_name": "B.1.1 - Bloc B - 1er étage Espace immo vous présente cet appartement 3 chambres, dans la résidence Othello à Oetrange, D",
-    "development_key": "b 1 1 bloc b 1er étage espace immo vous présente cet appartement 3 chambres dans la résidence othello à oetrange d"
+    "development_key": "b 1 1 bloc b 1er étage espace immo vous présente cet appartement 3 chambres dans la résidence othello à oetrange d",
+    "project_key": "oetrange|residence|othello",
+    "duplicate_of": "9013629",
+    "project_representative": false,
+    "project_unit_count": 6,
+    "original_decision_status": "ELIGIBLE"
   },
   {
     "url": "https://www.athome.lu/vente/appartement/oetrange/id-9305340.html",
@@ -670,7 +699,7 @@
     "garage": "2",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T20:00:06.582500+00:00",
+    "scraped_at": "2026-08-31T20:01:43.820554+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 949711,
@@ -729,9 +758,11 @@
     },
     "all_in_cost_per_m2_estimate_eur": 6800.22,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": true,
-    "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_eligible": false,
+    "decision_reasons": [
+      "duplicate_of_project_representative"
+    ],
+    "decision_status": "DUPLICATE",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -740,7 +771,12 @@
       "project_name": "C.2.1 - Bloc C - 2ème étage Espace immo vous présente ce penthouse 3 chambres, dans la résidence Othello à Oetrange, D'u"
     },
     "development_name": "C.2.1 - Bloc C - 2ème étage Espace immo vous présente ce penthouse 3 chambres, dans la résidence Othello à Oetrange, D'u",
-    "development_key": "c 2 1 bloc c 2ème étage espace immo vous présente ce penthouse 3 chambres dans la résidence othello à oetrange d u"
+    "development_key": "c 2 1 bloc c 2ème étage espace immo vous présente ce penthouse 3 chambres dans la résidence othello à oetrange d u",
+    "project_key": "oetrange|residence|othello",
+    "duplicate_of": "9013629",
+    "project_representative": false,
+    "project_unit_count": 6,
+    "original_decision_status": "ELIGIBLE"
   },
   {
     "url": "https://www.athome.lu/vente/appartement/livange/id-9227724.html",
@@ -776,7 +812,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:57.212964+00:00",
+    "scraped_at": "2026-08-31T20:01:33.249486+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 990000,
@@ -846,7 +882,9 @@
       "project_name": "!!!! BÂTIMENT TERMINÉ !!! HABITABLE DE SUITE !!! appartement A1-C neuf d'une surface totale de 139,55 m² comprenant une"
     },
     "development_name": "!!!! BÂTIMENT TERMINÉ !!! HABITABLE DE SUITE !!! appartement A1-C neuf d'une surface totale de 139,55 m² comprenant une",
-    "development_key": "bâtiment terminé habitable de suite appartement a1 c neuf d une surface totale de 139 55 m comprenant une"
+    "development_key": "bâtiment terminé habitable de suite appartement a1 c neuf d une surface totale de 139 55 m comprenant une",
+    "project_key": "livange|development|b timent termin habitable de suite appartement a1 c neuf d une surface totale de 139 55 m comprenant",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/oetrange/id-9305343.html",
@@ -882,7 +920,7 @@
     "garage": "2",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:46.316312+00:00",
+    "scraped_at": "2026-08-31T20:01:23.752009+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1013938,
@@ -941,9 +979,11 @@
     },
     "all_in_cost_per_m2_estimate_eur": 6737.33,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": true,
-    "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_eligible": false,
+    "decision_reasons": [
+      "duplicate_of_project_representative"
+    ],
+    "decision_status": "DUPLICATE",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -952,7 +992,12 @@
       "project_name": "A.2.1 - Bloc A - 2ème étage Espace immo vous présente ce penthouse 3 chambres, dans la résidence Othello à Oetrange, D'u"
     },
     "development_name": "A.2.1 - Bloc A - 2ème étage Espace immo vous présente ce penthouse 3 chambres, dans la résidence Othello à Oetrange, D'u",
-    "development_key": "a 2 1 bloc a 2ème étage espace immo vous présente ce penthouse 3 chambres dans la résidence othello à oetrange d u"
+    "development_key": "a 2 1 bloc a 2ème étage espace immo vous présente ce penthouse 3 chambres dans la résidence othello à oetrange d u",
+    "project_key": "oetrange|residence|othello",
+    "duplicate_of": "9013629",
+    "project_representative": false,
+    "project_unit_count": 6,
+    "original_decision_status": "ELIGIBLE"
   },
   {
     "url": "https://www.athome.lu/vente/appartement/moutfort/id-8739592.html",
@@ -988,7 +1033,7 @@
     "garage": "",
     "under_construction": true,
     "delivery_year": 2026,
-    "scraped_at": "2026-08-31T20:00:00.777587+00:00",
+    "scraped_at": "2026-08-31T20:01:37.880153+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 976000,
@@ -1058,7 +1103,9 @@
       "project_name": null
     },
     "development_name": null,
-    "development_key": null
+    "development_key": null,
+    "project_key": null,
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/livange/id-9227740.html",
@@ -1094,7 +1141,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:58.484379+00:00",
+    "scraped_at": "2026-08-31T20:01:36.005884+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 960000,
@@ -1164,7 +1211,9 @@
       "project_name": "Appartement A3-A neuf d'une surface total de 132,27 m2 se décomposant comme suit : une surface habitable de +/- 116,20 m"
     },
     "development_name": "Appartement A3-A neuf d'une surface total de 132,27 m2 se décomposant comme suit : une surface habitable de +/- 116,20 m",
-    "development_key": "appartement a3 a neuf d une surface total de 132 27 m2 se décomposant comme suit une surface habitable de 116 20 m"
+    "development_key": "appartement a3 a neuf d une surface total de 132 27 m2 se décomposant comme suit une surface habitable de 116 20 m",
+    "project_key": "livange|development|appartement a3 a neuf d une surface total de 132 27 m2 se d composant comme suit une surface habitab",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/maison/crauthem/id-9113537.html",
@@ -1200,7 +1249,7 @@
     "garage": "1",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:53.053641+00:00",
+    "scraped_at": "2026-08-31T20:01:28.762294+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 979999,
@@ -1273,7 +1322,9 @@
       "project_name": null
     },
     "development_name": null,
-    "development_key": null
+    "development_key": null,
+    "project_key": null,
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/sandweiler/id-9259511.html",
@@ -1309,7 +1360,7 @@
     "garage": "1",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:50.592036+00:00",
+    "scraped_at": "2026-08-31T20:01:26.888678+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 950000,
@@ -1379,7 +1430,9 @@
       "project_name": "de 8 unités, construite en 2019. L'appartement se compose comme suit : - Un hall d'entrée - Cuisine ouverte et équipée"
     },
     "development_name": "de 8 unités, construite en 2019. L'appartement se compose comme suit : - Un hall d'entrée - Cuisine ouverte et équipée",
-    "development_key": "de 8 unités construite en 2019 l appartement se compose comme suit un hall d entrée cuisine ouverte et équipée"
+    "development_key": "de 8 unités construite en 2019 l appartement se compose comme suit un hall d entrée cuisine ouverte et équipée",
+    "project_key": "sandweiler|development|de 8 unit s construite en 2019 l appartement se compose comme suit un hall d entr e cuisine ouverte ",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/strassen/id-8987263.html",
@@ -1415,7 +1468,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T20:00:08.737330+00:00",
+    "scraped_at": "2026-08-31T20:01:45.633126+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T14:56:53.782458+00:00",
     "previous_price_eur": 920000,
@@ -1487,7 +1540,9 @@
       "project_name": "de 2010 avec terrasse et jardin privatif living spacieux avec cuisine ouverte 1 salle de douche 1 salle de bain avec toi"
     },
     "development_name": "de 2010 avec terrasse et jardin privatif living spacieux avec cuisine ouverte 1 salle de douche 1 salle de bain avec toi",
-    "development_key": "de 2010 avec terrasse et jardin privatif living spacieux avec cuisine ouverte 1 salle de douche 1 salle de bain avec toi"
+    "development_key": "de 2010 avec terrasse et jardin privatif living spacieux avec cuisine ouverte 1 salle de douche 1 salle de bain avec toi",
+    "project_key": "strassen|development|de 2010 avec terrasse et jardin privatif living spacieux avec cuisine ouverte 1 salle de douche 1 sa",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/bertrange/id-8941408.html",
@@ -1523,7 +1578,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:30.236189+00:00",
+    "scraped_at": "2026-08-31T20:01:09.562963+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 998839,
@@ -1593,7 +1648,9 @@
       "project_name": "Situé au 1er étage du bâtiment B, l’appartement B 1.3 est un beau 3 chambres de 104,08 m². Il se distingue par ses volum"
     },
     "development_name": "Situé au 1er étage du bâtiment B, l’appartement B 1.3 est un beau 3 chambres de 104,08 m². Il se distingue par ses volum",
-    "development_key": "situé au 1er étage du bâtiment b l appartement b 1 3 est un beau 3 chambres de 104 08 m il se distingue par ses volum"
+    "development_key": "situé au 1er étage du bâtiment b l appartement b 1 3 est un beau 3 chambres de 104 08 m il se distingue par ses volum",
+    "project_key": "bertrange|development|situ au 1er tage du b timent b l appartement b 1 3 est un beau 3 chambres de 104 08 m il se distingu",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/moutfort/id-8743385.html",
@@ -1629,7 +1686,7 @@
     "garage": "",
     "under_construction": true,
     "delivery_year": 2026,
-    "scraped_at": "2026-08-31T20:00:02.061034+00:00",
+    "scraped_at": "2026-08-31T20:01:39.238288+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1037000,
@@ -1701,7 +1758,9 @@
       "project_name": null
     },
     "development_name": null,
-    "development_key": null
+    "development_key": null,
+    "project_key": null,
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/sandweiler/id-9128986.html",
@@ -1737,7 +1796,7 @@
     "garage": "1",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:48.462468+00:00",
+    "scraped_at": "2026-08-31T20:01:25.408918+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1090000,
@@ -1820,7 +1879,9 @@
         "major refresh required",
         "inferior to Roeser"
       ]
-    }
+    },
+    "project_key": "sandweiler|development|completed in 2019 this elegant apartment offers 120 24 m of living space combining contemporary desi",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/niederanven/id-9260425.html",
@@ -1856,7 +1917,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:40.207355+00:00",
+    "scraped_at": "2026-08-31T20:01:17.309963+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1090000,
@@ -1927,7 +1988,9 @@
       "project_name": null
     },
     "development_name": null,
-    "development_key": null
+    "development_key": null,
+    "project_key": null,
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/maison/niederanven/id-9260421.html",
@@ -1963,7 +2026,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": null,
-    "scraped_at": "2026-08-31T19:59:54.454442+00:00",
+    "scraped_at": "2026-08-31T20:01:30.010312+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1090000,
@@ -2034,7 +2097,9 @@
       "project_name": null
     },
     "development_name": null,
-    "development_key": null
+    "development_key": null,
+    "project_key": null,
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/fentange/id-9296254.html",
@@ -2070,7 +2135,7 @@
     "garage": "1",
     "under_construction": false,
     "delivery_year": 2026,
-    "scraped_at": "2026-08-31T19:59:34.054146+00:00",
+    "scraped_at": "2026-08-31T20:01:12.007933+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T14:56:53.782458+00:00",
     "previous_price_eur": 1080000,
@@ -2142,7 +2207,9 @@
       "project_name": ". Le duplex bénéficie d'un emplacement recherché, à proximité immédiate de toutes commodités : - Transports en commun (l"
     },
     "development_name": ". Le duplex bénéficie d'un emplacement recherché, à proximité immédiate de toutes commodités : - Transports en commun (l",
-    "development_key": "le duplex bénéficie d un emplacement recherché à proximité immédiate de toutes commodités transports en commun l"
+    "development_key": "le duplex bénéficie d un emplacement recherché à proximité immédiate de toutes commodités transports en commun l",
+    "project_key": "fentange|development|le duplex b n ficie d un emplacement recherch proximit imm diate de toutes commodit s transports en ",
+    "duplicate_of": null
   },
   {
     "url": "https://www.athome.lu/vente/appartement/niederanven/id-8283434.html",
@@ -2178,7 +2245,7 @@
     "garage": "",
     "under_construction": false,
     "delivery_year": 2026,
-    "scraped_at": "2026-08-31T19:59:38.809147+00:00",
+    "scraped_at": "2026-08-31T20:01:15.948863+00:00",
     "status": "ACTIVE",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1065560,
@@ -2250,6 +2317,8 @@
       "project_name": "FUTURE RÉSIDENCE LYDIA Elsa Home est ravie de vous présenter le projet prestigieux de la Résidence LYDIA, idéalement sit"
     },
     "development_name": "FUTURE RÉSIDENCE LYDIA Elsa Home est ravie de vous présenter le projet prestigieux de la Résidence LYDIA, idéalement sit",
-    "development_key": "future résidence lydia elsa home est ravie de vous présenter le projet prestigieux de la résidence lydia idéalement sit"
+    "development_key": "future résidence lydia elsa home est ravie de vous présenter le projet prestigieux de la résidence lydia idéalement sit",
+    "project_key": "niederanven|residence|lydia elsa home est ravie de vous pr",
+    "duplicate_of": null
   }
 ]
