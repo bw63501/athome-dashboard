@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "financial": {
+    "down_payment_rate": 0.2,
+    "mortgage_rate": 0.037,
+    "mortgage_years": 30,
+    "monthly_budget_eur": 4300.0,
+    "cash_budget_eur": 250000.0,
+    "bellegen_akt_credit_eur": 90000.0,
+    "transfer_tax_rate": 0.07,
+    "notary_rate_estimate": 0.01,
+    "mortgage_setup_rate_estimate": 0.0024,
+    "agency_cost_estimate_eur": 0.0
+  },
+  "commute": {
+    "max_minutes": 35,
+    "peak_factor": 1.6,
+    "workplaces": {
+      "bartek": "Galerie Cloche d'Or",
+      "natalia": "Clearstream, 42 Avenue John F. Kennedy"
+    },
+    "exceptions": {
+      "crauthem": {
+        "clearstream_minutes": 40.0,
+        "reason": "Conservative calibration to observed 25–40 min AM range; fails the 35 min hard limit."
+      }
+    }
+  },
+  "decision": {"energy_classes": ["A", "B", "C", "D"], "d_review_min_score": 85.0},
+  "transit": {"radius_m": 1200, "bonus_max": 2.5},
+  "search": {"min_price_eur": 100000, "max_price_eur": 1100000, "min_surface_m2": 100, "min_bedrooms": 3},
+  "risk": {"high_risk_monthly_buffer_eur": 200.0},
+  "move_in_estimates_eur": {"ready": 10000.0, "light_refresh": 25000.0, "kitchen": 40000.0, "kitchen_and_furnishing": 65000.0, "significant_refresh": 90000.0},
+  "scoring": {"weights": {"value": 40, "size": 15, "energy": 10, "outdoor": 10, "parking": 8, "building": 7, "features": 5}, "commute_bonus_max": 5, "transit_bonus_max": 2.5}
+}
