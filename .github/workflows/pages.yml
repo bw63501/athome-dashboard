@@ -51,7 +51,10 @@ jobs:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
-          curl -fsSL --retry 5 --retry-delay 2 "$PAGE_URL" | grep -q "House Master"
-          curl -fsSL --retry 5 --retry-delay 2 "${PAGE_URL%/}/data/config.json" | grep -q '"monthly_budget_eur": 4300.0'
-          curl -fsSL --retry 5 --retry-delay 2 "${PAGE_URL%/}/data/listings.json" | grep -q 'property_id'
+          curl -fsSL --retry 5 --retry-delay 2 "$PAGE_URL" -o /tmp/index.html
+          grep -q "House Master" /tmp/index.html
+          curl -fsSL --retry 5 --retry-delay 2 "${PAGE_URL%/}/data/config.json" -o /tmp/config.json
+          grep -q '"monthly_budget_eur": 4300.0' /tmp/config.json
+          curl -fsSL --retry 5 --retry-delay 2 "${PAGE_URL%/}/data/listings.json" -o /tmp/listings.json
+          grep -q 'property_id' /tmp/listings.json
           echo "Dashboard deployment smoke test PASS: $PAGE_URL"
