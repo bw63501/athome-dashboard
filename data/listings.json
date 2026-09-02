@@ -34,7 +34,7 @@
     "under_construction": true,
     "delivery_year": null,
     "scraped_at": "2026-09-02T10:12:21.348286+00:00",
-    "status": "ACTIVE",
+    "status": "REMOVED",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 944055,
     "price_change_eur": 0,
@@ -93,9 +93,12 @@
     },
     "all_in_cost_per_m2_estimate_eur": 7073.41,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": true,
-    "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_eligible": false,
+    "decision_reasons": [
+      "delivery_too_late",
+      "user_rejected"
+    ],
+    "decision_status": "REJECTED",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -112,7 +115,7 @@
     "development_group_key": "group:9013629",
     "project_key": "oetrange|development|othello oetrange othello oetrange",
     "duplicate_of": null,
-    "manual_notes": "Projekt OTHELLO / nowa inwestycja. Oferta użytkownika: lot B-1.1. Nowe mieszkanie w realizowanym projekcie; obowiązuje kara 20% do rankingu za ryzyko/niepewność inwestycji.",
+    "manual_notes": "Projekt OTHELLO / Oetrange odrzucony przez użytkownika. Najwcześniejszy termin realizacji 2028 jest zbyt odległy. Usunięte z aktywnego rankingu i TOP.",
     "original_auto_score": 90,
     "construction_penalty_rate": 0.2,
     "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score."
@@ -272,7 +275,7 @@
     "under_construction": true,
     "delivery_year": 2026,
     "scraped_at": "2026-09-02T10:12:44.191937+00:00",
-    "status": "ACTIVE",
+    "status": "SOLD",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 1037000,
     "price_change_eur": 0,
@@ -331,9 +334,12 @@
     },
     "all_in_cost_per_m2_estimate_eur": 8077.9,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": true,
-    "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_eligible": false,
+    "decision_reasons": [
+      "sold",
+      "user_removed"
+    ],
+    "decision_status": "REJECTED",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -347,7 +353,8 @@
     "project_key": null,
     "duplicate_of": null,
     "construction_penalty_rate": 0.2,
-    "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score."
+    "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score.",
+    "manual_notes": "Sprzedane. Ręczna decyzja użytkownika: usunąć z aktywnego rankingu i TOP."
   },
   {
     "url": "https://www.athome.lu/vente/appartement/crauthem/id-9099137.html",
