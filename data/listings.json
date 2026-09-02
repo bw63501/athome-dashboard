@@ -1809,7 +1809,11 @@
     "source": "immotop",
     "source_label": "Immotop",
     "manual_seed": true,
-    "all_in_cost_per_m2_estimate_eur": 6814.31
+    "all_in_cost_per_m2_estimate_eur": 6814.31,
+    "decision_eligible": true,
+    "commute_within_35_min_both": true,
+    "first_seen": "2026-09-02T00:00:00+00:00",
+    "scraped_at": "2026-09-02T00:00:00+00:00"
   },
   {
     "url": "https://www.immotop.lu/en/annonces/1984135/",
@@ -1822,7 +1826,7 @@
     "energy_class": null,
     "monthly_mortgage_eur": 3467,
     "monthly_total_eur": 3467,
-    "cash_required_eur": null,
+    "cash_required_eur": 220000,
     "score": 82,
     "commute_city_proxy": "roeser",
     "commute_cloche_d_or_peak_min": 10,
@@ -1833,7 +1837,11 @@
     "source": "immotop",
     "source_label": "Immotop",
     "manual_seed": true,
-    "all_in_cost_per_m2_estimate_eur": 9190.48
+    "all_in_cost_per_m2_estimate_eur": 9190.48,
+    "decision_eligible": true,
+    "commute_within_35_min_both": true,
+    "first_seen": "2026-09-02T00:00:00+00:00",
+    "scraped_at": "2026-09-02T00:00:00+00:00"
   },
   {
     "url": "https://www.immotop.lu/annonces/1922315/",
@@ -1857,7 +1865,11 @@
     "source": "immotop",
     "source_label": "Immotop",
     "manual_seed": true,
-    "all_in_cost_per_m2_estimate_eur": 8565.02
+    "all_in_cost_per_m2_estimate_eur": 8565.02,
+    "decision_eligible": true,
+    "commute_within_35_min_both": true,
+    "first_seen": "2026-09-02T00:00:00+00:00",
+    "scraped_at": "2026-09-02T00:00:00+00:00"
   },
   {
     "url": "https://www.immotop.lu/en/annonces/1964795/#foto16",
@@ -1881,6 +1893,10 @@
     "source": "immotop",
     "source_label": "Immotop",
     "manual_seed": true,
-    "all_in_cost_per_m2_estimate_eur": 8319.54
+    "all_in_cost_per_m2_estimate_eur": 8319.54,
+    "decision_eligible": true,
+    "commute_within_35_min_both": true,
+    "first_seen": "2026-09-02T00:00:00+00:00",
+    "scraped_at": "2026-09-02T00:00:00+00:00"
   }
 ]
