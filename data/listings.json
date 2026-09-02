@@ -31,7 +31,7 @@
     "cellar": "Oui",
     "parking_detail": "2",
     "garage": "",
-    "under_construction": false,
+    "under_construction": true,
     "delivery_year": null,
     "scraped_at": "2026-09-02T10:12:21.348286+00:00",
     "status": "ACTIVE",
@@ -111,7 +111,11 @@
     "development_duplicate_count": 5,
     "development_group_key": "group:9013629",
     "project_key": "oetrange|development|othello oetrange othello oetrange",
-    "duplicate_of": null
+    "duplicate_of": null,
+    "manual_notes": "Projekt OTHELLO / nowa inwestycja. Oferta użytkownika: lot B-1.1. Nowe mieszkanie w realizowanym projekcie; obowiązuje kara 20% do rankingu za ryzyko/niepewność inwestycji.",
+    "original_auto_score": 90,
+    "construction_penalty_rate": 0.2,
+    "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score."
   },
   {
     "url": "https://www.athome.lu/vente/appartement/livange/id-9227702.html",
@@ -341,7 +345,9 @@
     "development_name": null,
     "development_key": null,
     "project_key": null,
-    "duplicate_of": null
+    "duplicate_of": null,
+    "construction_penalty_rate": 0.2,
+    "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score."
   },
   {
     "url": "https://www.athome.lu/vente/appartement/crauthem/id-9099137.html",
@@ -563,7 +569,9 @@
     "development_name": null,
     "development_key": null,
     "project_key": null,
-    "duplicate_of": null
+    "duplicate_of": null,
+    "construction_penalty_rate": 0.2,
+    "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score."
   },
   {
     "url": "https://www.athome.lu/vente/appartement/livange/id-9227740.html",
@@ -676,7 +684,7 @@
     "development_key": "lot 1 dans",
     "project_key": "livange|development|lot 1 dans lot 1 dans",
     "duplicate_of": "9227702",
-    "manual_notes": "Duplikat tej samej oferty/projektu co Livange #2 (9227702)."
+    "manual_notes": "Duplikat tej samej oferty/projektu co Livange 9227702. Nie jest osobną pozycją w TOP."
   },
   {
     "url": "https://www.athome.lu/vente/maison/crauthem/id-9113537.html",
