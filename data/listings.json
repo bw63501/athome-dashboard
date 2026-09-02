@@ -1870,33 +1870,5 @@
     "commute_within_35_min_both": true,
     "first_seen": "2026-09-02T00:00:00+00:00",
     "scraped_at": "2026-09-02T00:00:00+00:00"
-  },
-  {
-    "url": "https://www.immotop.lu/en/annonces/1964795/#foto16",
-    "property_id": "immotop-1964795",
-    "title": "Bettembourg Localité · EB5AB",
-    "price_eur": 1139000,
-    "price_per_m2": 8135.71,
-    "surface_m2": 140,
-    "bedrooms": 4,
-    "energy_class": "B",
-    "monthly_mortgage_eur": 4092,
-    "monthly_total_eur": 4092,
-    "cash_required_eur": 232936,
-    "score": 74,
-    "commute_city_proxy": "bettembourg",
-    "commute_cloche_d_or_peak_min": null,
-    "commute_clearstream_peak_min": null,
-    "decision_status": "ELIGIBLE",
-    "decision_reasons": [],
-    "status": "ACTIVE",
-    "source": "immotop",
-    "source_label": "Immotop",
-    "manual_seed": true,
-    "all_in_cost_per_m2_estimate_eur": 8319.54,
-    "decision_eligible": true,
-    "commute_within_35_min_both": true,
-    "first_seen": "2026-09-02T00:00:00+00:00",
-    "scraped_at": "2026-09-02T00:00:00+00:00"
   }
 ]
