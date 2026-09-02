@@ -115,11 +115,13 @@
     "transit_bonus": 0,
     "transit_routes_nearby": null,
     "transit_nearest_stop_m": null,
-    "decision_eligible": true,
-    "decision_status": "ELIGIBLE",
-    "decision_reasons": [],
+    "decision_eligible": false,
+    "decision_status": "REJECTED",
+    "decision_reasons": [
+      "energy_class_too_low"
+    ],
     "status": "ACTIVE",
-    "manual_notes": "3 sypialnie + gabinet, 2 łazienki, ogromny garaż 4 auta, ogród 90 m², taras >30 m². Charges do potwierdzenia.",
+    "manual_notes": "Odrzucone na życzenie użytkownika: zbyt słaba klasa energetyczna (C).",
     "scraped_at": "2026-09-02T00:00:00+00:00",
     "first_seen": "2026-09-02T00:00:00+00:00"
   },
