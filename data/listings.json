@@ -230,7 +230,7 @@
     "manual_notes": "Ręczna ocena użytkownika: 15/100. Oferta wykonana słabo; jakość niezbyt dobra. Ręczna ocena zastępuje automatyczny score w rankingu.",
     "auto_score": 90,
     "manual_final_score": 15,
-    "original_auto_score": 15,
+    "original_auto_score": 90,
     "score_override": true
   },
   {
