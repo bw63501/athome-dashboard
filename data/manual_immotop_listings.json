@@ -162,11 +162,14 @@
     "transit_bonus": 0,
     "transit_routes_nearby": null,
     "transit_nearest_stop_m": null,
-    "decision_eligible": true,
-    "decision_status": "ELIGIBLE",
-    "decision_reasons": [],
-    "status": "ACTIVE",
-    "manual_notes": "Dobry dom technicznie i parkingowo, ale cena po zakładanej renegocjacji jest na granicy limitu. Jedna pełna łazienka na cztery sypialnie; pokój w piwnicy wymaga weryfikacji. €1.05m to target, nie uzgodniona cena. Pozostaje jedynym reprezentantem tej ręcznie wprowadzonej pozycji Bettembourg.",
+    "decision_eligible": false,
+    "decision_status": "REJECTED",
+    "decision_reasons": [
+      "sold",
+      "user_removed"
+    ],
+    "status": "SOLD",
+    "manual_notes": "Sprzedane. Ręczna decyzja użytkownika: usunąć z aktywnego rankingu i TOP.",
     "nexvia_estimate_eur": 1035000,
     "scraped_at": "2026-09-02T00:00:00+00:00",
     "first_seen": "2026-09-02T00:00:00+00:00"
