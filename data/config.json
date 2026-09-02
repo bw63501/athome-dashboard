@@ -4,13 +4,13 @@
     "down_payment_rate": 0.2,
     "mortgage_rate": 0.037,
     "mortgage_years": 30,
-    "monthly_budget_eur": 4300.0,
-    "cash_budget_eur": 250000.0,
-    "bellegen_akt_credit_eur": 90000.0,
+    "monthly_budget_eur": 4300,
+    "cash_budget_eur": 250000,
+    "bellegen_akt_credit_eur": 90000,
     "transfer_tax_rate": 0.07,
     "notary_rate_estimate": 0.01,
     "mortgage_setup_rate_estimate": 0.0024,
-    "agency_cost_estimate_eur": 0.0
+    "agency_cost_estimate_eur": 0
   },
   "commute": {
     "max_minutes": 35,
@@ -21,7 +21,7 @@
     },
     "exceptions": {
       "crauthem": {
-        "clearstream_minutes": 40.0,
+        "clearstream_minutes": 40,
         "reason": "Conservative calibration to observed 25–40 min AM range; fails the 35 min hard limit."
       }
     }
@@ -33,7 +33,10 @@
       "C",
       "D"
     ],
-    "d_review_min_score": 85.0
+    "d_review_min_score": 85,
+    "under_construction_penalty_rate": 0.2,
+    "under_construction_policy": "eligible_with_score_penalty",
+    "manual_override_policy": "manual_final_score_overrides_automatic_score"
   },
   "transit": {
     "radius_m": 1200,
@@ -46,14 +49,14 @@
     "min_bedrooms": 3
   },
   "risk": {
-    "high_risk_monthly_buffer_eur": 200.0
+    "high_risk_monthly_buffer_eur": 200
   },
   "move_in_estimates_eur": {
-    "ready": 10000.0,
-    "light_refresh": 25000.0,
-    "kitchen": 40000.0,
-    "kitchen_and_furnishing": 65000.0,
-    "significant_refresh": 90000.0
+    "ready": 10000,
+    "light_refresh": 25000,
+    "kitchen": 40000,
+    "kitchen_and_furnishing": 65000,
+    "significant_refresh": 90000
   },
   "scoring": {
     "weights": {
