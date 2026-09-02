@@ -1674,7 +1674,7 @@
     "cash_budget_ok": false,
     "affordability_status": "confirmed",
     "affordable": false,
-    "score": 63.6,
+    "score": 70,
     "score_components": {
       "value": 40,
       "size": 70,
@@ -1689,12 +1689,11 @@
     },
     "all_in_cost_per_m2_estimate_eur": 10646.42,
     "value_score_basis": "all_in_acquisition_cost_per_m2",
-    "decision_eligible": false,
+    "decision_eligible": true,
     "decision_reasons": [
-      "not_affordable",
-      "energy_D_score_too_low"
+      "manual_review_cash_slightly_over_budget"
     ],
-    "decision_status": "REJECTED",
+    "decision_status": "ELIGIBLE",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -1706,7 +1705,11 @@
     "development_name": null,
     "development_key": null,
     "project_key": null,
-    "duplicate_of": null
+    "duplicate_of": null,
+    "manual_final_score": 70,
+    "score_override": true,
+    "original_auto_score": 63.6,
+    "manual_notes": "Ręcznie dodane do aktywnego rankingu przez użytkownika. Wstępna ocena 70/100: bardzo dobra lokalizacja i układ rodzinny (3 sypialnie, 34 m² tarasu, ok. 54 m² prywatnego ogrodu, garaż), ale wysoka cena ok. €10.3k/m² oraz energetyka D/D. Finansowo model przekracza obecny cash budget o ok. €3.9k, dlatego wymaga ręcznej weryfikacji negocjacji/cash before offer. Dostępność z ogłoszenia: 1.10.2026."
   },
   {
     "url": "https://www.athome.lu/vente/appartement/niederanven/id-8283434.html",
