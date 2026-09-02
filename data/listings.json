@@ -227,9 +227,11 @@
     "duplicate_of": null,
     "manual_quality_score": 15,
     "manual_quality_score_max": 100,
-    "manual_notes": "Ręczna ocena użytkownika: FINAL SCORE 15/100. Oferta wykonana słabo; jakość niezbyt dobra.",
+    "manual_notes": "Ręczna ocena użytkownika: 15/100. Oferta wykonana słabo; jakość niezbyt dobra. Ręczna ocena zastępuje automatyczny score w rankingu.",
     "auto_score": 90,
-    "manual_final_score": 15
+    "manual_final_score": 15,
+    "original_auto_score": 15,
+    "score_override": true
   },
   {
     "url": "https://www.athome.lu/vente/appartement/moutfort/id-8743385.html",
