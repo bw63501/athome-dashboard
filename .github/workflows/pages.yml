@@ -51,10 +51,14 @@ jobs:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
-          curl -fsSL --retry 5 --retry-delay 2 "$PAGE_URL" -o /tmp/index.html
+          # GitHub Pages propagation can lag the deploy API by more than 10 seconds.
+          # Use a cache-busting query and a longer retry window before declaring failure.
+          stamp="$(date +%s)"
+          sleep 8
+          curl -fsSL --retry 12 --retry-all-errors --retry-delay 5 "$PAGE_URL?v=$stamp" -o /tmp/index.html
           grep -q "House Master" /tmp/index.html
-          curl -fsSL --retry 5 --retry-delay 2 "${PAGE_URL%/}/data/config.json" -o /tmp/config.json
+          curl -fsSL --retry 12 --retry-all-errors --retry-delay 5 "${PAGE_URL%/}/data/config.json?v=$stamp" -o /tmp/config.json
           grep -q '"monthly_budget_eur": 4300.0' /tmp/config.json
-          curl -fsSL --retry 5 --retry-delay 2 "${PAGE_URL%/}/data/listings.json" -o /tmp/listings.json
+          curl -fsSL --retry 12 --retry-all-errors --retry-delay 5 "${PAGE_URL%/}/data/listings.json?v=$stamp" -o /tmp/listings.json
           grep -q 'property_id' /tmp/listings.json
           echo "Dashboard deployment smoke test PASS: $PAGE_URL"
