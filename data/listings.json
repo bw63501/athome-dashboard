@@ -578,7 +578,9 @@
     "project_key": null,
     "duplicate_of": null,
     "construction_penalty_rate": 0.2,
-    "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score."
+    "construction_penalty_reason": "New-build / under construction penalty −20% applied to ranking score.",
+    "estimated_ready": "Q1 2027",
+    "manual_notes": "Aktywna oferta. Potwierdzone przez użytkownika: będzie gotowa w Q1 2027. Pozostaje w rankingu; inwestycja w budowie ma zastosowaną karę −20% do rankingu."
   },
   {
     "url": "https://www.athome.lu/vente/appartement/livange/id-9227740.html",
