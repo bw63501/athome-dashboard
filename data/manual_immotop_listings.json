@@ -32,13 +32,16 @@
     "transit_bonus": 0,
     "transit_routes_nearby": null,
     "transit_nearest_stop_m": null,
-    "decision_eligible": true,
-    "decision_status": "ELIGIBLE",
-    "decision_reasons": [],
+    "decision_eligible": false,
+    "decision_status": "DUPLICATE",
+    "decision_reasons": [
+      "duplicate"
+    ],
     "status": "ACTIVE",
-    "manual_notes": "Dom po renowacji, 2 parkingi, ogród, bardzo dobry metraż i value. CPE, charges i stan techniczny do potwierdzenia.",
+    "manual_notes": "Duplikat / powtórzenie wcześniej ocenionej oferty Bettembourg. Ręczna decyzja użytkownika: nie traktować jako osobnej pozycji w TOP.",
     "scraped_at": "2026-09-02T00:00:00+00:00",
-    "first_seen": "2026-09-02T00:00:00+00:00"
+    "first_seen": "2026-09-02T00:00:00+00:00",
+    "duplicate_of": "immotop-1964795"
   },
   {
     "source": "immotop",
@@ -118,10 +121,11 @@
     "decision_eligible": false,
     "decision_status": "REJECTED",
     "decision_reasons": [
-      "energy_class_too_low"
+      "energy_class_too_low",
+      "user_rejected"
     ],
     "status": "ACTIVE",
-    "manual_notes": "Odrzucone na życzenie użytkownika: zbyt słaba klasa energetyczna (C).",
+    "manual_notes": "Odrzucone na życzenie użytkownika: zbyt słaba klasa energetyczna (C). Nie wraca do TOP.",
     "scraped_at": "2026-09-02T00:00:00+00:00",
     "first_seen": "2026-09-02T00:00:00+00:00"
   },
@@ -162,7 +166,7 @@
     "decision_status": "ELIGIBLE",
     "decision_reasons": [],
     "status": "ACTIVE",
-    "manual_notes": "Dobry dom technicznie i parkingowo, ale cena po zakładanej renegocjacji jest na granicy limitu. Jedna pełna łazienka na cztery sypialnie; pokój w piwnicy wymaga weryfikacji. €1.05m to target, nie uzgodniona cena.",
+    "manual_notes": "Dobry dom technicznie i parkingowo, ale cena po zakładanej renegocjacji jest na granicy limitu. Jedna pełna łazienka na cztery sypialnie; pokój w piwnicy wymaga weryfikacji. €1.05m to target, nie uzgodniona cena. Pozostaje jedynym reprezentantem tej ręcznie wprowadzonej pozycji Bettembourg.",
     "nexvia_estimate_eur": 1035000,
     "scraped_at": "2026-09-02T00:00:00+00:00",
     "first_seen": "2026-09-02T00:00:00+00:00"
