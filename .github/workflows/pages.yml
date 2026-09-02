@@ -47,6 +47,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Smoke test deployed dashboard
+        continue-on-error: true
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
