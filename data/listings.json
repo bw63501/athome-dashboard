@@ -226,8 +226,8 @@
     "project_key": "livange|development|multifamiliale a t multifamiliale a t",
     "duplicate_of": null,
     "manual_quality_score": 15,
-    "manual_quality_score_max": 20,
-    "manual_notes": "Ręczna ocena po ocenie jakości: 15/20. Oferta nr 2 i nr 3 dotyczą tej samej oferty/projektu — pozostawić tylko jednego reprezentanta."
+    "manual_quality_score_max": 100,
+    "manual_notes": "Ręczna ocena użytkownika: 15/100. Oferta wykonana słabo; jakość niezbyt dobra. Reprezentant oferty/projektu Livange."
   },
   {
     "url": "https://www.athome.lu/vente/appartement/moutfort/id-8743385.html",
@@ -672,7 +672,7 @@
     "development_key": "lot 1 dans",
     "project_key": "livange|development|lot 1 dans lot 1 dans",
     "duplicate_of": "9227702",
-    "manual_notes": "Ta sama oferta/projekt co nr 2 (9227702). Duplikat — usunięta z TOP."
+    "manual_notes": "Duplikat tej samej oferty/projektu co Livange #2 (9227702)."
   },
   {
     "url": "https://www.athome.lu/vente/maison/crauthem/id-9113537.html",
