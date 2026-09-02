@@ -1799,21 +1799,24 @@
     "monthly_mortgage_eur": 3412,
     "monthly_total_eur": 3412,
     "cash_required_eur": 211683,
-    "score": 84,
+    "score": 20,
     "commute_city_proxy": "bettembourg",
     "commute_cloche_d_or_peak_min": null,
     "commute_clearstream_peak_min": null,
-    "decision_status": "ELIGIBLE",
-    "decision_reasons": [],
+    "decision_status": "REJECTED",
+    "decision_reasons": [
+      "Viewed in person: subjective suitability 2/10 — extensive sloped ceilings and unusual/awkward layout."
+    ],
     "status": "ACTIVE",
     "source": "immotop",
     "source_label": "Immotop",
     "manual_seed": true,
     "all_in_cost_per_m2_estimate_eur": 6814.31,
-    "decision_eligible": true,
+    "decision_eligible": false,
     "commute_within_35_min_both": true,
     "first_seen": "2026-09-02T00:00:00+00:00",
-    "scraped_at": "2026-09-02T00:00:00+00:00"
+    "scraped_at": "2026-09-02T00:00:00+00:00",
+    "manual_notes": "Viewed in person: subjective suitability 2/10 due to extensive sloped ceilings and unusual/awkward layout."
   },
   {
     "url": "https://www.immotop.lu/en/annonces/1984135/",
