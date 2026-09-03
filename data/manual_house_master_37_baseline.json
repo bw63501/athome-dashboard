@@ -144,7 +144,8 @@
     "manual_status": "REJECTED",
     "manual_override": true,
     "manual_override_type": "personal_viewing_hard_override",
-    "manual_reason": "Personal viewing hard override."
+    "manual_reason": "Personal viewing confirmed: uneven/trapezoidal rooms; substantial refresh needed; weaker than Roeser.",
+    "subjective_score": 30
   },
   {
     "source": "house_master_37",
@@ -279,7 +280,8 @@
     "manual_override": true,
     "manual_status": "VIEWED_CONFIRMED",
     "manual_override_type": "personal_viewing_hard_override",
-    "manual_reason": "Personal viewing: very good overall impression 9/10; 2 closed garages; small balcony and third room ~10m² treated as office rather than full bedroom."
+    "manual_reason": "Personal viewing confirmed: 9/10 subjective impression; 2 closed garages; small balcony; third room ~10m² is effectively an office, not full bedroom.",
+    "subjective_score": 90
   },
   {
     "source": "house_master_37",
@@ -387,7 +389,7 @@
     "manual_final_score": 15,
     "manual_override": true,
     "manual_status": "REJECTED",
-    "manual_reason": "Personal viewing hard override.",
+    "manual_reason": "Personal viewing confirmed hard rejection: poor functional layout; finish 5/10; parking surcharge €42k.",
     "source": "house_master_manual",
     "source_label": "House Master — manual override",
     "baseline_active": false,
@@ -395,6 +397,7 @@
     "legacy_rank": null,
     "manual_override_type": "personal_viewing_hard_override",
     "status": "REJECTED",
-    "decision_status": "REJECTED"
+    "decision_status": "REJECTED",
+    "subjective_score": 15
   }
 ]
