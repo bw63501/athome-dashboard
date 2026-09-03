@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "overrides": [
+    {
+      "property_id": "immotop-1984135",
+      "subjective_score": 90,
+      "manual_final_score": 90,
+      "manual_status": "VIEWED_CONFIRMED",
+      "manual_override_type": "personal_viewing_hard_override",
+      "reason": "Personal viewing confirmed: 9/10 subjective impression; 2 closed garages; small balcony; third room ~10m² is effectively an office, not a full bedroom."
+    },
+    {
+      "property_id": "immotop-1982147",
+      "subjective_score": 15,
+      "manual_final_score": 15,
+      "manual_status": "REJECTED",
+      "manual_override_type": "personal_viewing_hard_override",
+      "reason": "Personal viewing hard rejection: poor functional layout; finish 5/10; parking surcharge €42k."
+    },
+    {
+      "property_id": "9259511",
+      "subjective_score": 30,
+      "manual_final_score": 30,
+      "manual_status": "REJECTED",
+      "manual_override_type": "personal_viewing_hard_override",
+      "reason": "Personal viewing: uneven/trapezoidal rooms; substantial refresh needed; weaker than Roeser."
+    }
+  ]
+}
