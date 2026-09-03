@@ -236,7 +236,8 @@
     "manual_final_score": 15,
     "manual_override": true,
     "manual_status": "REJECTED",
-    "manual_reason": "Livange manual hard override: score 15/100 after personal viewing; bad functional layout. This override outranks automated scoring."
+    "manual_reason": "Personal viewing hard override: poor functional layout; finish 5/10; parking surcharge €42k.",
+    "manual_override_type": "personal_viewing_hard_override"
   },
   {
     "url": "https://www.athome.lu/vente/appartement/crauthem/id-9099137.html",
@@ -833,7 +834,7 @@
     "under_construction": false,
     "delivery_year": null,
     "scraped_at": "2026-09-03T15:53:49.231601+00:00",
-    "status": "ACTIVE",
+    "status": "REJECTED",
     "first_seen": "2026-08-31T11:16:20.942043+00:00",
     "previous_price_eur": 950000,
     "price_change_eur": 0,
@@ -898,7 +899,7 @@
     "value_score_basis": "all_in_acquisition_cost_per_m2",
     "decision_eligible": true,
     "decision_reasons": [],
-    "decision_status": "ELIGIBLE",
+    "decision_status": "REJECTED",
     "quality_signals": {
       "sold": false,
       "sold_text": false,
@@ -910,7 +911,12 @@
     "development_name": "se situe à",
     "development_key": "se situe à",
     "project_key": "sandweiler|development|se situe se situe",
-    "duplicate_of": null
+    "duplicate_of": null,
+    "manual_final_score": 30,
+    "manual_override": true,
+    "manual_status": "REJECTED",
+    "manual_override_type": "personal_viewing_hard_override",
+    "manual_reason": "Personal viewing hard override: uneven/trapezoidal rooms; substantial refresh needed; weaker than Roeser."
   },
   {
     "source": "wortimmo",
