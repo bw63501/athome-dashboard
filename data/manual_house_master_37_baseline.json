@@ -136,15 +136,15 @@
     "score": 90,
     "legacy_score": 90,
     "legacy_rank": 4,
-    "decision_status": "BASELINE_REVIEW",
-    "status": "BASELINE",
+    "decision_status": "REJECTED",
+    "status": "REJECTED",
     "decision_eligible": false,
     "manual_notes": "Zachowany jako kanoniczna pozycja House Master 37; historyczny score i rank nie mogą zostać utracone przez bieżący pipeline.",
     "manual_final_score": 30,
     "manual_status": "REJECTED",
     "manual_override": true,
     "manual_override_type": "personal_viewing_hard_override",
-    "manual_reason": "Po obejrzeniu: nierówne i trapezowate pokoje, duży refresh, przegrywa z Roeser pod wieloma względami. Subiektywna ocena po oglądaniu ma pierwszeństwo przed scoringiem obiektywnym."
+    "manual_reason": "Personal viewing hard override: uneven/trapezoidal rooms; substantial refresh needed; weaker than Roeser."
   },
   {
     "source": "house_master_37",
@@ -382,12 +382,14 @@
     "manual_final_score": 15,
     "manual_override": true,
     "manual_status": "REJECTED",
-    "manual_reason": "Osobista ocena po obejrzeniu: zły układ funkcjonalny; standard wykończenia 5/10; parking +42k. Twarda decyzja użytkownika.",
+    "manual_reason": "Personal viewing hard override: poor functional layout; finish 5/10; parking surcharge €42k.",
     "source": "house_master_manual",
     "source_label": "House Master — manual override",
     "baseline_active": false,
     "baseline_historical": true,
     "legacy_rank": null,
-    "manual_override_type": "personal_viewing_hard_override"
+    "manual_override_type": "personal_viewing_hard_override",
+    "status": "REJECTED",
+    "decision_status": "REJECTED"
   }
 ]
