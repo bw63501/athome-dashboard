@@ -916,7 +916,7 @@
     "manual_override": true,
     "manual_status": "REJECTED",
     "manual_override_type": "personal_viewing_hard_override",
-    "manual_reason": "Personal viewing hard override: uneven/trapezoidal rooms; substantial refresh needed; weaker than Roeser."
+    "manual_reason": "Personal viewing hard override."
   },
   {
     "source": "wortimmo",
