@@ -367,5 +367,21 @@
     "baseline_historical": true,
     "legacy_score": 74,
     "legacy_rank": 10
+  },
+  {
+    "property_id": "immotop-1982147",
+    "title": "Livange",
+    "url": "https://www.immotop.lu/en/annonces/1982147/",
+    "price_eur": 990000,
+    "surface_m2": 113.05,
+    "manual_final_score": 15,
+    "manual_override": true,
+    "manual_status": "REJECTED",
+    "manual_reason": "Osobiście ocenione po obejrzeniu: zły układ funkcjonalny; standard wykończenia 5/10; parking +42k. Hard override — nie może być nadpisany przez automatyczny scoring.",
+    "source": "house_master_manual",
+    "source_label": "House Master — manual override",
+    "baseline_active": false,
+    "baseline_historical": true,
+    "legacy_rank": null
   }
 ]
