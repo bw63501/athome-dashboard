@@ -229,7 +229,11 @@
     "baseline_active": true,
     "baseline_historical": true,
     "legacy_score": 84,
-    "legacy_rank": 7
+    "legacy_rank": 7,
+    "manual_override": true,
+    "manual_override_type": "house_master_locked_status",
+    "manual_status": "ACTIVE_TRACKED",
+    "manual_reason": "Legacy House Master 37 canonical tracked property. Preserve identity and history; automatic dedupe/scoring may not delete or replace it."
   },
   {
     "source": "house_master_37",
